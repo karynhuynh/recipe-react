@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import axios from "axios";
+import "./App.css";
 
 function App() {
+  const apiId = "e6f467f5";
+  const apiKey = "ba93ffc5731ad174b73b38733e12f25c";
+  const apiUrl = `https://api.edamam.com/search?q=chicken&app_id=${apiId}&app_key=${apiKey}`;
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello Karyn</h1>
     </div>
   );
 }
