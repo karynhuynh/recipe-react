@@ -1,7 +1,7 @@
 import React from "react";
 // import Ingredients from "./Ingredients";
 import RecipeImage from "./RecipeImage";
-import RecipeInfo from './RecipeInfo.js'
+import Category from "./Category.js";
 
 export default function Results(props) {
   if (props.results) {
@@ -17,8 +17,8 @@ export default function Results(props) {
               {/* <div className="Ingredients">
                 <Ingredients ingredients={result.recipe.ingredientLines} />
               </div> */}
-              <div className="RecipeInfo">
-                <RecipeInfo info={result.recipe.dishType}/>
+              <div className="Category">
+                <Category category={result.recipe.dishType} />
               </div>
               <div className="RecipeSource">
                 <span>Source: </span>

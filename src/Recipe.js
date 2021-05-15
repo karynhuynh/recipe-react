@@ -39,18 +39,15 @@ export default function Recipe(props) {
   if (loaded) {
     return (
       <div className="App">
-        <form className="search-form" onSubmit={foodSubmit}>
+        <form onSubmit={foodSubmit}>
           <input
-            className="search-bar"
             type="text"
             defaultValue={props.defaultKeyword}
             autoFocus={true}
             required
             onChange={foodSearch}
           />
-          <button className="search-button" type="submit">
-            Search
-          </button>
+          <button type="submit">Search</button>
         </form>
         <div className="Results">
           <Results results={results} />
