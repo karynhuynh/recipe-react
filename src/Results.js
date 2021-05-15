@@ -1,11 +1,19 @@
 import React from "react";
+import Ingredients from "./Ingredients";
 
 export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        {props.results.hits.map((hit, index) => {
-          return <h3 key={index}>{hit.recipe.label}</h3>;
+        {props.results.map((result, index) => {
+          return (
+            <div key={index}>
+              <h4>{result.recipe.label}</h4>
+              <div className="Ingredients">
+                <Ingredients ingredients={result.recipe.ingredientLines} />
+              </div>
+            </div>
+          );
         })}
       </div>
     );

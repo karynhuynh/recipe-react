@@ -28,7 +28,7 @@ export default function Recipe() {
 
   function handleRecipeResponse(response) {
     console.log(response);
-    setResults(response.data);
+    setResults(response.data.hits);
   }
 
   if (loaded) {
