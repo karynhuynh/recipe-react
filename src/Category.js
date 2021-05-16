@@ -1,11 +1,12 @@
 import React from "react";
 
+import "./Category.css";
+
 export default function Category(props) {
-  if (props.info) {
+  if (props.category) {
     return (
       <div className="Category">
-        <span>Category: </span>
-        {props.category}
+        Category: <span className="category-info">{props.category}</span>
       </div>
     );
   } else {

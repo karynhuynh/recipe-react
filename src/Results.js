@@ -2,6 +2,9 @@ import React from "react";
 // import Ingredients from "./Ingredients";
 import RecipeImage from "./RecipeImage";
 import Category from "./Category.js";
+import RecipeInfo from "./RecipeInfo";
+
+import "./Results.css";
 
 export default function Results(props) {
   if (props.results) {
@@ -9,17 +12,14 @@ export default function Results(props) {
       <div className="Results">
         {props.results.map((result, index) => {
           return (
-            <div key={index}>
-              <h4>{result.recipe.label}</h4>
-              <div className="RecipeImage">
-                <RecipeImage image={result.recipe} />
-              </div>
+            <div key={index} className="results-card">
+              <h3>{result.recipe.label}</h3>
+                <RecipeInfo info={result.recipe} />
+                <RecipeImage image={result.recipe.image} />
               {/* <div className="Ingredients">
                 <Ingredients ingredients={result.recipe.ingredientLines} />
               </div> */}
-              <div className="Category">
                 <Category category={result.recipe.dishType} />
-              </div>
               <div className="RecipeSource">
                 <span>Source: </span>
                 <a href={result.recipe.url} target="_blank" rel="noreferrer">

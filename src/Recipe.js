@@ -38,7 +38,7 @@ export default function Recipe(props) {
 
   if (loaded) {
     return (
-      <div className="App">
+      <div className="Recipe">
         <form onSubmit={foodSubmit}>
           <input
             type="text"
@@ -49,9 +49,7 @@ export default function Recipe(props) {
           />
           <button type="submit">Search</button>
         </form>
-        <div className="Results">
-          <Results results={results} />
-        </div>
+        <Results results={results} />
       </div>
     );
   } else {

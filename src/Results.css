@@ -1,0 +1,14 @@
+.Results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Results .results-card {
+  margin: 20px;
+}
+
+.Results h3 {
+  margin-bottom: 0;
+}

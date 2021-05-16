@@ -5,7 +5,7 @@ export default function RecipeImage(props) {
     return (
       <div className="RecipeImage">
         {/* <a href={props.image.url} target="_blank" rel="noreferrer"></a> */}
-          <img src={props.image.image} alt="recipe final result" />
+        <img src={props.image} alt="recipe final result" />
       </div>
     );
   } else {

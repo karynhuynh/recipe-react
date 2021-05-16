@@ -1,0 +1,7 @@
+.Category {
+  margin-top: 7px;
+}
+
+.Category .category-info {
+  text-transform: capitalize;
+}
