@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Results from "./Results";
 
+import "./Recipe.css";
+
 export default function Recipe(props) {
   useEffect(() => {}, []);
 
@@ -47,7 +49,9 @@ export default function Recipe(props) {
             required
             onChange={foodSearch}
           />
-          <button type="submit">Search</button>
+          <button type="submit">
+            <i class="fas fa-search"></i>
+          </button>
         </form>
         <Results results={results} />
       </div>

@@ -1,0 +1,14 @@
+.Recipe form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Recipe input {
+  width: 75%;
+  padding: 5px;
+}
+.Recipe button {
+  padding: 5px 10px;
+  background: none;
+}
