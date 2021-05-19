@@ -10,7 +10,7 @@ export default function RecipeInfo(props) {
           Serves <span className="amount">{props.info.yield}</span>
         </div>
         <div className="Calories">
-          kCal <span className="amount">{Math.round(props.info.calories)}</span>
+          <span className="amount">{Math.round(props.info.calories)}</span> kCal
         </div>
       </div>
     );

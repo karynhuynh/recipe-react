@@ -1,7 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
 
 .App {
-  margin: 100px;
+  margin: 0 125px;
+}
+
+.App h1 {
+  text-align: center;
+  padding: 100px;
 }

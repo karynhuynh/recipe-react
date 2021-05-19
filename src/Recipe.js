@@ -50,7 +50,7 @@ export default function Recipe(props) {
             onChange={foodSearch}
           />
           <button type="submit">
-            <i class="fas fa-search"></i>
+            <i className="fas fa-search"></i>
           </button>
         </form>
         <Results results={results} />

@@ -3,19 +3,19 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 60px;
+  margin: 100px 0;
 }
 
 .Results .results-card {
   margin: 20px;
   padding: 20px;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: 0.55s ease-in-out;
 }
 
 .Results .results-card:hover {
-  transform: translateY(-15px);
+  transform: translateY(-20px);
 }
 
 .Results h3 {
