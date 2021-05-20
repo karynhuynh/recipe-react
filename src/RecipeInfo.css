@@ -1,9 +1,17 @@
-.RecipeInfo {
+.RecipeInfo .numbers {
   display: flex;
-  margin: 10px 0;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
 .RecipeInfo .amount {
   opacity: 0.5;
+}
+
+.RecipeInfo .category {
+  margin-top: 10px;
+}
+
+.RecipeInfo .category-info {
+  text-transform: capitalize;
 }

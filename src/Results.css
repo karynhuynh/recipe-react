@@ -7,10 +7,10 @@
 }
 
 .Results .results-card {
-  margin: 20px;
-  padding: 20px;
+  margin: 15px;
+  padding: 25px;
   border: 1px solid #ddd;
-  border-radius: 10px;
+  border-radius: 7px;
   transition: 0.55s ease-in-out;
 }
 
@@ -19,6 +19,6 @@
 }
 
 .Results h3 {
-  margin: 0;
+  margin-top: 10px;
   text-align: center;
 }

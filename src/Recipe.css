@@ -4,12 +4,27 @@
   align-items: center;
 }
 
+.Recipe input,
+.Recipe button {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14.5px;
+}
+
 .Recipe input {
-  width: 75%;
-  padding: 5px;
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+  padding: 7px;
 }
 
 .Recipe button {
-  padding: 5px 10px;
-  background: none;
+  padding: 9.5px 15px;
+  background: #fff;
+  margin-left: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.Recipe button:hover {
+  color: #fff;
+  background: #000;
 }

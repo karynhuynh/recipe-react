@@ -9,10 +9,12 @@ body {
 }
 
 .App {
-  margin: 0 125px;
+  margin: 0 auto;
+  max-width: 1250px;
 }
 
 .App h1 {
   text-align: center;
   padding: 100px;
+  font-size: 40px;
 }
