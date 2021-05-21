@@ -1,12 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
 
 import "./Recipe.css";
 
 export default function Recipe(props) {
-  useEffect(() => {}, []);
-
   const [keyword, setKeyword] = useState(props.defaultKeyword);
   const [results, setResults] = useState(null);
   const [loaded, setLoaded] = useState(false);
@@ -44,8 +42,9 @@ export default function Recipe(props) {
         <form onSubmit={foodSubmit}>
           <input
             type="text"
-            defaultValue={props.defaultKeyword}
-            autoFocus={true}
+            placeholder="Search for a recipe here"
+            // defaultValue={props.defaultKeyword}
+            // autoFocus={true}
             required
             onChange={foodSearch}
           />
