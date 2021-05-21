@@ -8,7 +8,7 @@ function App() {
       <header>
         <h1>I'm hungry...</h1>
       </header>
-      <Recipe defaultKeyword="egg" />
+      <Recipe defaultKeyword="watercress" />
     </div>
   );
 }

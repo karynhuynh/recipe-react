@@ -4,6 +4,7 @@ import "./RecipeImage.css";
 
 export default function RecipeImage(props) {
   if (props.image) {
+    console.log(props.image);
     return (
       <div className="RecipeImage">
         <a href={props.url} target="_blank" rel="noreferrer">
