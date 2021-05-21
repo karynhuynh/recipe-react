@@ -10,11 +10,20 @@ body {
 
 .App {
   margin: 0 auto;
-  max-width: 1250px;
+}
+
+.App header {
+  width: 100%;
+  background: url(./images/food.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .App h1 {
   text-align: center;
-  padding: 100px;
-  font-size: 40px;
+  padding: 90px;
+  font-size: 50px;
+  color: #fff;
+  z-index: 100;
 }

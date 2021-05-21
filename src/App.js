@@ -5,8 +5,10 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>I'm hungry for...</h1>
-      <Recipe defaultKeyword="blueberry" />
+      <header>
+        <h1>I'm hungry...</h1>
+      </header>
+      <Recipe defaultKeyword="kale" />
     </div>
   );
 }
