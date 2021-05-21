@@ -3,15 +3,17 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 100px 0;
+  margin: 100px auto;
+  max-width: 1250px;
 }
 
 .Results .results-card {
-  margin: 15px;
+  margin: 20px;
   padding: 25px;
   border: 1px solid #ddd;
   border-radius: 7px;
   transition: 0.55s ease-in-out;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .Results .results-card:hover {
