@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>I'm hungry...</h1>
+        <h1>I'm hungry for...</h1>
       </header>
-      <Recipe defaultKeyword="watercress" />
+      <Recipe defaultKeyword="sticky toffee pudding" />
     </div>
   );
 }
