@@ -33,3 +33,28 @@
   background: #000;
   color: #fff;
 }
+
+.RecipeImage img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+
+.RecipeInfo .numbers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.RecipeInfo .amount {
+  opacity: 0.5;
+}
+
+.RecipeInfo .category {
+  margin-top: 10px;
+}
+
+.RecipeInfo .category-info {
+  text-transform: capitalize;
+}
+

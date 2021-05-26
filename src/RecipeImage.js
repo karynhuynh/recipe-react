@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./RecipeImage.css";
+import "./Recipe.css";
 
 export default function RecipeImage(props) {
   if (props.image) {

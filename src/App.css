@@ -10,6 +10,7 @@ body {
 
 .App {
   margin: 0 auto;
+  z-index: 100;
 }
 
 .App header {
@@ -25,5 +26,4 @@ body {
   padding: 70px;
   font-size: 60px;
   color: #fff;
-  z-index: 100;
 }

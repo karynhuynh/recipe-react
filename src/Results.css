@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   margin: 80px auto;
   max-width: 1300px;
+  z-index: 100;
 }
 
 .Results .results-card {

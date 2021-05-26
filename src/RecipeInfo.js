@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./RecipeInfo.css";
+import "./Recipe.css";
 
 export default function RecipeInfo(props) {
   if (props.info) {
