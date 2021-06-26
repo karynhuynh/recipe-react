@@ -10,7 +10,7 @@
 
 .Results .results-card {
   margin: 20px;
-  padding: 25px;
+  padding: 30px;
   /* border: 1px solid #ddd; */
   border-radius: 7px;
   transition: 0.55s ease-in-out;
@@ -25,4 +25,10 @@
   max-width: 315px;
   margin-top: 10px;
   text-align: center;
+}
+
+@media (max-width: 650px) {
+  .Results {
+    margin-top: 0px;
+  }
 }

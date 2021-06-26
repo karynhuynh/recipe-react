@@ -32,7 +32,6 @@ export default function Recipe(props) {
   }
 
   function handleRecipeResponse(response) {
-    console.log(response);
     setResults(response.data.hits);
   }
 
@@ -42,7 +41,7 @@ export default function Recipe(props) {
         <form onSubmit={foodSubmit}>
           <input
             type="text"
-            placeholder="Search for a recipe here"
+            placeholder="Search a receipe..."
             // defaultValue={props.defaultKeyword}
             // autoFocus={true}
             required

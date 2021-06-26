@@ -58,3 +58,13 @@
   text-transform: capitalize;
 }
 
+@media (max-width: 650px) {
+  .Recipe input,
+  .Recipe button {
+    margin: 50px 10px;
+  }
+
+  .Recipe input {
+    padding: 0;
+  }
+}
